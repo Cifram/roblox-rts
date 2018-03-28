@@ -5,17 +5,12 @@ local Component = require(Shared.Component)
 
 local Unit = Component:extend("Unit")
 
-function Unit:init()
-	self.selected = false
+function Unit:select()
+	self.instance.BrickColor = BrickColor.Yellow()
 end
 
-function Unit:onClick()
-	self.selected = not self.selected
-	if self.selected then
-		self.instance.BrickColor = BrickColor.Yellow()
-	else
-		self.instance.BrickColor = BrickColor.White()
-	end
+function Unit:deselect()
+	self.instance.BrickColor = BrickColor.White()
 end
 
 return Unit
