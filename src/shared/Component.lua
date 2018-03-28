@@ -31,6 +31,14 @@ function Component:getComponentOnInstance(instance, component)
 	return component._instances[instance]
 end
 
+function Component:getInstancesWithComponent(component)
+	local instances = {}
+	for instance in pairs(component._instances) do
+		instances[#instances+1] = instance
+	end
+	return instances
+end
+
 function Component:init()
 end
 
