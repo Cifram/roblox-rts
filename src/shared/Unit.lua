@@ -7,7 +7,7 @@ local Component = require(Shared.Component)
 local Unit = Component:extend("Unit")
 
 function Unit:init()
-	self.offset = Vector3.new(0, -self.instance.Size.y / 2 + 1, 0)
+	self.offset = Vector3.new(0, -self.instance.Size.y / 2, 0)
 	self.recalculatingPath = false
 	self.moveSpeed = 5
 end
@@ -50,13 +50,20 @@ function Unit:moveAlongPath(dt)
 			self.path = nil
 		else
 			self.currentWaypoint = self.currentWaypoint + 1
-			self.currentWaypointPosition = waypoints[self.currentWaypoint].Position
+			self:calculateWaypointPosition()
 			self:moveAlongPath(dt * deltaMagnitude / travel)
 		end
 	else
 		local newPos = self.instance.CFrame.p + deltaDirection * travel
 		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
 	end
+end
+
+function Unit:calculateWaypointPosition()
+	local basePosition = self.path:GetWaypoints()[self.currentWaypoint].Position
+	local ray = Ray.new(basePosition + Vector3.new(0, 20, 0), Vector3.new(0, -30, 0))
+	local _, terrainPosition = Workspace:FindPartOnRayWithWhitelist(ray, { workspace.Terrain })
+	self.currentWaypointPosition = terrainPosition
 end
 
 function Unit:calculatePath()
@@ -80,8 +87,8 @@ function Unit:calculatePath()
 
 		self.path = path
 		self.currentWaypoint = 2
-		self.currentWaypointPosition = path:GetWaypoints()[2].Position
 		self.recalculatingPath = false
+		self:calculateWaypointPosition()
 	end)
 end
 
