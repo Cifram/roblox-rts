@@ -14,7 +14,7 @@ function CameraManager.new()
 	local cameraRotateSpeed = 1
 	local minZoom = 4
 	local maxZoom = 6
-	local zoomRate = 1
+	local zoomRate = 0.1
 
 	local camera = workspace.Camera
 	local terrain = workspace.Terrain
@@ -68,7 +68,7 @@ function CameraManager.new()
 
 	UserInputService.InputChanged:connect(function(input, processed)
 		if input.UserInputType == Enum.UserInputType.MouseWheel then
-			zoom = math.clamp(zoom + input.Position.Z * 0.01, minZoom, maxZoom)
+			zoom = math.clamp(zoom + input.Position.Z * zoomRate, minZoom, maxZoom)
 		end
 	end)
 
