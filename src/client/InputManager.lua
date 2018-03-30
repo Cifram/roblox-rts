@@ -32,6 +32,9 @@ function InputManager.new()
 			selectedUnit = nil
 			unit:deselect()
 		else
+			if selectedUnit then
+				selectedUnit:deselect()
+			end
 			selectedUnit = unit
 			unit:select()
 		end

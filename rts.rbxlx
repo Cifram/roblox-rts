@@ -34,26 +34,26 @@
 		<Item class="Camera" referent="RBX6744b7e1808c465397849210039b0372">
 			<Properties>
 				<CoordinateFrame name="CFrame">
-					<X>38.8753281</X>
-					<Y>30.564394</Y>
-					<Z>20.7383614</Z>
-					<R00>0.445131421</R00>
-					<R01>-0.499403298</R01>
-					<R02>0.743272841</R02>
-					<R10>1.49011594e-08</R10>
-					<R11>0.830040991</R11>
-					<R12>0.557702601</R12>
-					<R20>-0.895465255</R20>
-					<R21>-0.248250932</R21>
-					<R22>0.369477302</R22>
+					<X>44.7330093</X>
+					<Y>55.9502831</Y>
+					<Z>53.495636</Z>
+					<R00>0.738857806</R00>
+					<R01>-0.463865638</R01>
+					<R02>0.488792241</R02>
+					<R10>1.49011612e-08</R10>
+					<R11>0.725360274</R11>
+					<R12>0.688369513</R12>
+					<R20>-0.673861384</R20>
+					<R21>-0.508607209</R21>
+					<R22>0.535938084</R22>
 				</CoordinateFrame>
 				<Ref name="CameraSubject">null</Ref>
 				<token name="CameraType">0</token>
 				<float name="FieldOfView">70</float>
 				<CoordinateFrame name="Focus">
-					<X>37.3887863</X>
-					<Y>29.4489918</Y>
-					<Z>19.9994087</Z>
+					<X>43.7554245</X>
+					<Y>54.5735435</Y>
+					<Z>52.4237595</Z>
 					<R00>1</R00>
 					<R01>0</R01>
 					<R02>0</R02>
@@ -146,66 +146,182 @@ gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/AAD/AAD/
-AAD/AQD9gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+AAD/AAH+gP+A/4DdQgFCBIAaQgJCBkIKQg1CEIAYQgFCCEIQwhIBQhlCG4AYQg1CHEIkQiNC
+HkIdQiCAF0IHQhxCL0I5QjRCIUIWQhiAF0INQidCP0JLQkBCIkIKQgeAF0INQihCQUJMQkJC
+IIAZQgZCHkI1Qj9CNkIeQgxCAIAYQg9CIkIsQi5CI0IXQg6AGEICQhBCHUIlQidCIUIbgP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP8AAAAAAAAAAAAAAAGAGUIDQg9CGkIkQiZC
+I4AaQgRCDkIYQiFCJoAbQgNCDUIYQh+AHEIAQgdCEoAeQgSA/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4BfAP//AP//AP//Af/+gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C
+/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C
+/4L/gv+C/4L/gv+C/wAA/wAA/wAA/wAB/oD/gP+APkIMgBxCBUIYQjOAG0IJQhpCNkJXgBpC
+C0IfQjFCSUJkgBlCD0JAQmtCbMJPAUIFQgZCA0IBQgCAFEI+QppC40LLQn5COEIRQhJCE0IO
+Qg1CC0IKQgeAEEIHQnKCA0JTQh1CH0IewhsBQhxCJ0IqQiFCC4ALQgBCB0IIQgZCsYIDQnxC
+IEIiQiBCH0IjQi9CSkJWQkxCKUIIgAhCBUISQjtCWUJqQk1C8IIDQpVCF0IYQhlCF0IdQjxC
+ZEJ6QnBCSEIZgAdCDkIlQlhC0oIGQsVCWUIIQgnCCgFCDkIwQl5CgUJ8QlRCH4AGQhNCMEJZ
+Qr+CBELUQoVCa0I4QhWABEINQkJCaEJsQktCF4AFQhBCO0JgQoxC7oIEQmhCAoAHQgNCGkI5
+QkVCMkIWQgCAA0IGQjNCa0KQQqFCzYIEQj6AA0IBgARCEEIkQjFCLUIbQgaAA0IcQldClkKw
+QptCkELmggJCekIIgANCEUIFgANCC0IcwioBQiJCD4ADQihCbUKoQrRClkJ3QtaCAUKgQkBC
+BYD/gP+A/kIhQlRCVkIGgBtCSkKSQo1CMYAbQkBCeEJyQiKAF0I9QnNCQcIfAUIqQhaAF0JA
+QuwCQt9CPoAaQleCAkJIgBpCKkKzAkK6QhSAG0IdQkRCJ4AcQjxCOYD/gP+A/4B+QhOAHUIL
+QiZCDYAdQgSA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAA
-AAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gEYAAAAAAAAAAAAAAAFCHkITQgpCAYABQgNCFEIk
+QipCJkIaQgmAAkIoQmdCnkKiQoVCfYIDQkFCA4ADQiZCIkIbQhFCB4ABQgxCGUIyQjpCI0IY
+QgxCAQBCIEJYQolCjUJvQouCA0JtQgqAA0IlQihCJkIfQhVCDEIGQgVCKkJWQnRCaEIwQhlC
+DUIDQhpCUEKQQqVCjkKsggNCpkItQgOAAkIdQiRCKUImQiBCFkISQhhCRkKSQtBCy0KAQiJC
+HEISQiNCZ0K8QuFCwkKoggNC+kJQQiFCBYABQg9CGUIfQiFCH0IdQhtCJkJhQsiCAUL+QmVC
+MEIiQjlClYICQr1C2IIDQodCTkIjQgcAQgFCCkIQQhZCF0IaQhtCHkJlQtGCAkLkQmtCOkJE
+Qs+CAkLyQpyCBEK1QmFCK0IVgAFCAkIHQgxCEEIUQhZCMkKUggRCekJEQviCA0KGggZCn0Ja
+gANCAEIFQg1CEUIQQipCi4IDQvlCPoIEQomCB0L2gARCFEIwQj1CMEIRQjGCBEIvggRCekLZ
+ggeAA0INQjxCc0KcQohCTUImggNCqEIOQo+CAkLcQmdCm0L9ggaAA0IdQmFCwoIBQrRCXYID
+QnhCHUIoQnxCvUKtQl9CW0J/QpNCsIIFgANCGkJmQuWCAkKdQv2CAkLqQnVCKUIaQiRCJkIf
+QkdCcEKIQp5C44IEgANCCkJCQreCAkLmQtWCBEKZQjBCFEIMQhRCK0JVQn1Ct4IFgANCA0IV
+QkZCx4ICQueCBULjQqBCPUIiQhpCN0JjQtOCA0L5QquABEIGQhpCaoIMQmtCL0I5QlWCBEJm
+QguABUIKQkBC1IILQvlCn0KoggRCjEIYgAZCBEI6QuKCEkLlQkxCAYAFQgNCIUJaghNCdkIW
+gAZCDkI8QoOCEkJ9QhqAB0IOQj5ChEL0ghBCakIHgAhCAUInQl1CnUL1gg9CS4AKQgRCIEI4
+Qq+CD0JggA1C04IPQmxCK0IRgApCDIIEQmyCCULZQnxCd0JSQiJCAYAHQgJCZ4IDQrpCSoIG
+QvJC7EK3Qo9Cq0K3QoxCSUIXgAdCG0KwggNCi0IzQpOCBEKcQm1CW0JNQl1Cq0LJQqVCYEIk
+QgGABkIfQq6CA0JgQkNCdoIDQs1CVUIyQhlCEkIpQnpCnUKJQlNCIUICgAZCBUJqggJC+0Jj
+QktCbIIEQpNCNUIQQgBCCUI6Ql9CV0I2QhOACEIQQnRC4ULWQntCdEKsggZCd0IXQgJCDUIf
+Qi5CLEIbQgeACUIXQkBCYUJwQtSCB0LwQixCB0ITQh5CIkIbQg9CAIAIQgFCHUJCQl5CdoIJ
+QlRCEUIcQiFCH0ITQgaACUICQh5CSEJgQm9C6oIIQmVCGUIiQiFCGUIMQgCAF0IpQohCi0Is
+gBtCTkLKQtZCaoAbQktC0UL2QoaAG0IfQqBCxEJ8gA9CEUIcgAVCAkIUQgWAAUJHQotCfEIt
+gA5CGkI+Qj+ABEJDQmZCP4ABQhJCkELSQp5CLIANQhBCjYIBQoeAAkKIQstCiUIPAEIXQqmC
+AUL8QnZCCYAMggOAAUIVQqVC6UKlQhwAQgVCm4IEQmWACkICggNCJwBCA0J5Qr9Ch0IbgAFC
+ZoIFQn6ACkL5ggJCH4ABQidCWEJAgANClYIEQu2ABkIHQgiAAUJDggJCD4AJQoCCA0LxgAZC
+IEInQgmAAUJ7QvxC3oALQpyCAUL3QoSABkIbQi5CFYABQiBC6gJC+kKOgAhCH0JeQotCjEJ1
+Qi+AB0IYQiFCFABCFIIDQvxCGYAGQj5CeUKKQk6ACUICQiRCJkIdQn+CBUKuQhqAA0INQmFC
+gEJjQhCACkIjQj1CZELcggZCroACQhBCTEJ3QmRCJoALQjdCa0K7gghCQUICQhhCS0J7QnJC
+PIALQglCYkLLgghC+0IvQhRCLEJWQmlCR0IRgAtCC0JiQt2CCEK4QhpCIUJCQldCP0IEgA1C
+LkLPgghCnkIZQlBClEJ3Qh2AD0LHgghCjEJLQt0CQp5CCoAPQrqCCELfQoeCAkI4gA9C9YIC
+QsSCCELcQjGADkJzggJCXgBCnIIFQrlCi0JSgA9C7YICQgYAQiuCBELAgBJC3YICgAFCDIID
+QtmAE0JtggFChIABQgOCA0KcgBNCEkJaQmKAA0JxggNCCYAYQg9CxYIDQpmAF0I5QpGCBYAW
+QgpCUELYggVCK4AWQj1Cw4IEQsNCGoDUQhxCFIAKQg5CIoAPQhNCjUKXQieACUIXQmZCjkJz
+QhiADEI7ggFCfYAJQgtCg0LQQtdCkEIygAxC9QJCgIAKQkFClELIQq9CWYAMQlBCgkIvgAtC
+I0J5QnZCMoAcQhtCKIAPQidCCIAcQiFC0wJC7kIxgBpCY4IDQnaAGUKVggRCj4AXQjZCvoIE
+Qt5CA4AVQgNCSkLJggVCAoAVQgxCQEKzggVCBIAVQjxCe0L0ggRC5YAWQkdCpoIFQqeAFkI+
+QotCsEL0ggNC7IABQhVCJkIBgBFCTUJhQjYAQqWCA0LdQkBCDUIXgBFCPEJyQkCAAUICggRC
+UoATQmFCckIUgAJClIIDgBRCSEJZQgKAAkJuggJCt4AUQg1CE4ADQj2CAkK4gBpCKIICQumA
+GkI9ggNCFYAZQlmCA0I2gBlCUYIDQjGAGUIjQlpCa0KjQlmA/4AWQgBCB4AeQgeAgEIZgB1C
+V0LSQuJCZIAbQoiCAkJagBpCYULbggFCn4AaQiFCUULWAkKtQgaAGUIJQi5ChELOQohCDIAZ
+QipCYULIQstCXIAZQgVCNkJ9QvICQoaAG0JMQs0CQsOAHEJ7ggFCgYAbQi2CAkI/gBpCH4IC
+Qj2AGkIIggJCRoAaQgeCAkJEgBpCE4ICQseAGkIZggOAGkISggOAG0JuggFCdoD/gP+AGUIJ
+Qh5CAoAdQhpCFIAeQgOAXkIEgB5CDIAeQhRCEoAdQh9CPkIOgBxCJUJnQkKAHEIbQnpCXoAc
+QiACQvmAHEK1ggFCQYAbQtKCAUKBgBtCeIIBQm6AHEJgQm6A/4D/gP+AfUITgB5CYUJRgB1C
+fEJugB1CP0I8gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4BLAAAAAAAAAAAAAAABgAhCHUJAQlZCU0KEQueCBkK/QktCIkIlQh9CFEIGgAtCFkI3Qk9C
+TUI3QkZCgEKiQrxCvkLFQrFCi0JWQiZCJ0IkQhtCDIAMQgtCKEJAQkdCOUIjQiBCPUJYQldC
+MUIqQiRCH0IlQidCIEITQgOADEIBQhdCLUI5QjdCLUIfQhRCIUIiwh0BQiJCJEIjQh9CFEIH
+gA5CBkIYQiZCLkIwQixCMUI5QkBCP0I6QipCJUIcQhRCCEIAgA9CCEIUQiJCJ0IyQkNCVEJb
+QlhCSUIvQh9CEUIIgBJCBEIQQhpCJUI+Qk5CWEJQQj9CI0ISQgSAFEIBQgpCFUIiQi9COUIy
+QiJCD0ICgBdCA0IIQhFCE0IOQgSA/4D/gPlCTkKNQoNCa0KsQo1CL4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAA
-AAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAAB
+gP+A/4D/gP+A/4D/gP+A/4DpAP//AP//AP//Af/9gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/gv+C/4L/gv+C/wAA/wAA/wAA/wEA/YD/
+gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4L/
+gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4L/gv+C/4L/gv+C/4L/gv8AAP8AAP8AAP8BAP2A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C/4L/
+gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C/4L/
+gv+C/4L/gv+C/wAA/wAA/wAA/wAB/oD/gARCBEIKQgSAGUIAQgJCDEIfQiVCIUIQQgGAFkIJ
+Qh9CL0JTQldCVEJHQixCD0IEgBRCAEIjQlFCfkLPQtJCl0JvQkhCGkIQQgWAE0IFQjxClULo
+ggFC70KTQk5CIkIaQhJCB4ATQlJC24IDQstCT0InQiRCHUIQQgOAEUIDQkRC6YIEQpZCQkIt
+QiZCGEILgBFCCUJQQt2CBUKcQmhCQUIkQhBCA4AQQh1Ce4IGQv1CwkKTQkxCGkIJgBBCRUK3
+gghC+EKcQjtCDUIBgA9Ce0L0ggpCg0IfQgSAD0KTQvWCCkLqQlZCCoAPQoNCrkLoggpCkkIi
+gA9CV0JiQnFCp4IJQp9CMUIDgA5CKsIgAUIvQnhC7IIHQpVCLUIFgA5CN0I2QjNCJ0ISQkNC
+sIIGQm9CGIAPQl5CYkJjQlVCO0IeQiVCk4IEQr5CPEICgA9CdEJ+QoxCjUJ0QkpCMUJTQtOC
+A0JZQhKAEEJVQmlChEKZQpNCfEJVQldCq4ICQsJCMIARQhhCMEJOQnNCkEKVQnlCY0KoQvQC
+QuNCcUIUgBNCFEI3QmpCikKIQn5CpULbQvRCwEJgQhiAFEIFQjpCaUKaQspC1kLtQtVCokJR
+QhqAFUIUQklCmULTQvECQtRCj0JKQhqAFUICQjBCckKnQtdC8kLMQn5CR0IXgP+AlUIhQieA
+HEIiQlRCU0IkgBtCNUJ0Qo9CX0IkgBpCQ0KWQslC3kKQQhqAGEIGQktC8IICQreAGEIaQmOC
+BEJaQhKAFkIsQnqCBEKUQklCJUIBgBRCMUKxggRCq0J6QlJCJoAVQktC/YIEQutCtkJhQhmA
+FUI7Qt2CBULhQi2AF0KcggVCVIAYQqaCA0LwQj+AGUKNggJCg4AbQlJCpEKRQiCAG0IMQjBC
+J4AdQgmAXUICgP+A/4A6Qn1CeUJLgBtCX4IBQuNCN4AaQomCAkJ4gBpCXoICQqWAG0LpggFC
+wkJIgBtCeULHQstCqEKCQjyAGkJPQpjC2AFCgEILgBpCOUKgQr1CaoAcQjVCW0IegP+A/4D/
+gBhCFUItgB1CP0JrQjqAHEI0QmlCQoAdQi1CIID/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
 gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/
-gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/]]></BinaryString>
+gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+AdwAAAAAAAAAAAAAAAYAE
+QhVCP0JoQptCwUKmQmRCQEIVgBZCAEIWQi1CWEJ7Qm1CW0I4Qg2AGEIFQidCR0JaQkpCJUID
+gBhCC0IlQkFCSUI3QhaAGEIAQhBCJ0I2QjlCJkINgBJCBYAEQgJCF0ItQi9CKUIZQgWAEkIz
+QhhCAoACQiFCQUJQQkBCHkIMgBNCf0I9Qh1CBwBCGEJLQm9CcUJQQiBCAIATAkKDQjpCHEIU
+QkNCfEKfQo5CWkIigBQCQvVCZUI0QjlCVkKQQqtCiUJNQhaAFIIBQsVCd0JhQl5CdUKDQmJC
+K4AVggJC3UK6Qo1CXUI3Qh9CAoAVggVCokIlQgOAFkKVQp5C9YICQvlCQ4AXQiVCRkKfggNC
+Y4AYQglCP0LpggFC2UJLgBpCSEKVQp1CZEIYgBtCEkIfQg2A/4D/gNhCB4AeQk2AHkJnQiCA
+HUI/QhxCBYAcQgpCBUIIQhFCHkIMgBxCOUJRQjqAHEIwQlRCRUIKgBxCJEIfgP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4AZAP//AP//AP//Af/+gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gv+C/4L/gv+C/4L/gv+C/wAAAAAAAAAAAAAAAYD/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4L/gv+C/4L/gv+C/4L/gv8AAAAAAAAAAAAAAAGA/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+C
+/4L/gv+C/4L/gv+C/4L/AAAAAAAAAAAAAAABgP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A
+/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gP+A/4D/gv+C
+/4L/gv+C/4L/gv+C/w==]]></BinaryString>
 				<BinaryString name="Tags">VGVycmFpbg==</BinaryString>
 				<float name="TopParamA">-0.5</float>
 				<float name="TopParamB">0.5</float>
@@ -243,6 +359,80 @@ gP+A/4D/gP+C/4L/gv+C/4L/gv+C/4L/]]></BinaryString>
 				<CoordinateFrame name="CFrame">
 					<X>0</X>
 					<Y>4.00001097</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="Tags">VW5pdA==</BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>4</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX631aad94627745a9b7dc60e3d8916cc3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>3</X>
+					<Y>4</Y>
 					<Z>0</Z>
 					<R00>1</R00>
 					<R01>0</R01>
@@ -421,7 +611,7 @@ function CameraManager.new()
 	local cameraRotateSpeed = 1
 	local minZoom = 4
 	local maxZoom = 6
-	local zoomRate = 1
+	local zoomRate = 0.1
 
 	local camera = workspace.Camera
 	local terrain = workspace.Terrain
@@ -475,7 +665,7 @@ function CameraManager.new()
 
 	UserInputService.InputChanged:connect(function(input, processed)
 		if input.UserInputType == Enum.UserInputType.MouseWheel then
-			zoom = math.clamp(zoom + input.Position.Z * 0.01, minZoom, maxZoom)
+			zoom = math.clamp(zoom + input.Position.Z * zoomRate, minZoom, maxZoom)
 		end
 	end)
 
@@ -577,6 +767,207 @@ function InputManager.new()
 			selectedUnit = nil
 			unit:deselect()
 		else
+			if selectedUnit then
+				selectedUnit:deselect()
+			end
+			selectedUnit = unit
+			unit:select()
+		end
+	end
+
+	UserInputService.InputBegan:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			downPosition = input.Position
+			local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+			ray = Ray.new(ray.Origin, ray.Direction * 1024)
+			local parts = getClickables()
+			downPart = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 and downPart then
+			local deltaPos = input.Position - downPosition
+			if deltaPos.Magnitude < 1.0 then
+				local ray = workspace.Camera:ScreenPointToRay(input.Position.x, input.Position.y)
+				ray = Ray.new(ray.Origin, ray.Direction * 1024)
+				local parts = getClickables()
+				local part, position = Workspace:FindPartOnRayWithWhitelist(ray, parts)
+				if part == downPart then
+					if part == terrain then
+						clickTerrain(position)
+					else
+						local unit = Component:getComponentOnInstance(part, Unit)
+						clickUnit(unit)
+					end
+				end
+			end
+		end
+	end)
+end
+
+return InputManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBX7738366767854d5d9be32730b0cbbd77">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">CameraManager</string>
+					<string name="ScriptGuid">{e26152eb-d3b8-49cd-83f7-1934f8892bce}</string>
+					<ProtectedString name="Source"><![CDATA[local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+local CameraManager = {}
+CameraManager.__index = CameraManager
+
+function CameraManager.new()
+	local self = {}
+	setmetatable(self, CameraManager)
+
+	local cameraSpeed = 1
+	local cameraRotateSpeed = 1
+	local minZoom = 4
+	local maxZoom = 6
+	local zoomRate = 0.1
+
+	local camera = workspace.Camera
+	local terrain = workspace.Terrain
+	local origin = Vector3.new(0, 512, 0)
+	local angle = 0
+	local zoom = minZoom
+	local movingForward = false
+	local movingBackward = false
+	local movingLeft = false
+	local movingRight = false
+	local rotatingLeft = false
+	local rotatingRight = false
+	
+	camera.CameraType = Enum.CameraType.Scriptable
+
+	UserInputService.InputBegan:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = true
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = true
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = true
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = true
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = true
+			end
+		end
+	end)
+
+	UserInputService.InputEnded:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.W then
+				movingForward = false
+			elseif input.KeyCode == Enum.KeyCode.S then
+				movingBackward = false
+			elseif input.KeyCode == Enum.KeyCode.A then
+				movingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.D then
+				movingRight = false
+			elseif input.KeyCode == Enum.KeyCode.Q then
+				rotatingLeft = false
+			elseif input.KeyCode == Enum.KeyCode.E then
+				rotatingRight = false
+			end
+		end
+	end)
+
+	UserInputService.InputChanged:connect(function(input, processed)
+		if input.UserInputType == Enum.UserInputType.MouseWheel then
+			zoom = math.clamp(zoom + input.Position.Z * zoomRate, minZoom, maxZoom)
+		end
+	end)
+
+	RunService.Heartbeat:connect(function(timeMult)
+		if rotatingLeft then
+			angle = angle - cameraRotateSpeed * timeMult
+		end
+		if rotatingRight then
+			angle = angle + cameraRotateSpeed * timeMult
+		end
+
+		local range = zoom*zoom
+		local actualCameraSpeed = range * cameraSpeed
+		local forward = Vector3.new(math.cos(angle), 0, math.sin(angle))
+		local left = Vector3.new(-forward.z, 0, forward.x)
+
+		if movingForward then
+			origin = origin + forward * actualCameraSpeed * timeMult
+		end
+		if movingBackward then
+			origin = origin + forward * -actualCameraSpeed * timeMult
+		end
+		if movingRight then
+			origin = origin + left * actualCameraSpeed * timeMult
+		end
+		if movingLeft then
+			origin = origin + left * -actualCameraSpeed * timeMult
+		end
+
+		local _, intersection = workspace:FindPartOnRayWithWhitelist(Ray.new(origin, Vector3.new(0, -1024, 0)), { terrain })
+		camera.CFrame = CFrame.new(intersection - forward*range + Vector3.new(0, range, 0), intersection)
+	end)
+	
+	return self
+end
+
+return CameraManager]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXbb727009c4364fd1ac12b4532a9c8113">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">InputManager</string>
+					<string name="ScriptGuid">{481fed3a-dd28-4758-9da8-662c3d08906b}</string>
+					<ProtectedString name="Source"><![CDATA[local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+local Unit = require(Shared.Unit)
+
+local InputManager = {}
+InputManager.__index = InputManager
+
+function InputManager.new()
+	local downPosition = nil
+	local downPart = nil
+
+	local selectedUnit = nil
+	local terrain = workspace.Terrain
+
+	local function getClickables()
+		local parts = Component:getInstancesWithComponent(Unit)
+		parts[#parts+1] = terrain
+		return parts
+	end
+
+	local function clickTerrain(position)
+		if selectedUnit then
+			selectedUnit:pathTo(position)
+		end
+	end
+
+	local function clickUnit(unit)
+		if unit == selectedUnit then
+			selectedUnit = nil
+			unit:deselect()
+		else
+			if selectedUnit then
+				selectedUnit:deselect()
+			end
 			selectedUnit = unit
 			unit:select()
 		end
@@ -994,12 +1385,6 @@ return ComponentManager]]></ProtectedString>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
-			<Item class="Folder" referent="RBX0b9d11452e55447fb743389c9325dfa0">
-				<Properties>
-					<string name="Name">Components</string>
-					<BinaryString name="Tags"></BinaryString>
-				</Properties>
-			</Item>
 			<Item class="ModuleScript" referent="RBX40639aff798e40ca9ff50ed67ff33602">
 				<Properties>
 					<Content name="LinkedSource"><null></null></Content>
@@ -1014,9 +1399,9 @@ local Component = require(Shared.Component)
 local Unit = Component:extend("Unit")
 
 function Unit:init()
-	self.offset = Vector3.new(0, -self.instance.Size.y / 2 + 1, 0)
+	self.offset = Vector3.new(0, -self.instance.Size.y / 2, 0)
 	self.recalculatingPath = false
-	self.moveSpeed = 1
+	self.moveSpeed = 5
 end
 
 function Unit:update(dt)
@@ -1041,16 +1426,15 @@ end
 function Unit:moveAlongPath(dt)
 	local position = self.instance.CFrame.p + self.offset
 	local waypoints = self.path:GetWaypoints()
-	local currentWaypoint = waypoints[self.currentWaypoint]
-	local delta = currentWaypoint.Position - position
+	local delta = self.currentWaypointPosition - position
 	local deltaMagnitude = delta.Magnitude
 	local deltaDirection = delta / deltaMagnitude
 	local travel = self.moveSpeed * dt
-	print(self.offset, position, currentWaypoint.Position)
 
 	-- If we're closer to the waypoint than the distance we'd travel, we've reached the waypoint.
 	if deltaMagnitude < travel then
-		self.instance.CFrame = CFrame.new(currentWaypoint.Position - self.offset, deltaDirection)
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
 
 		-- If this is the last waypoint, we're done. Clear the path.
 		-- Otherwise, move to the waypoint, and then move again to use up the rest of our movement to the next one.
@@ -1058,11 +1442,21 @@ function Unit:moveAlongPath(dt)
 			self.path = nil
 		else
 			self.currentWaypoint = self.currentWaypoint + 1
+			self:calculateWaypointPosition()
 			self:moveAlongPath(dt * deltaMagnitude / travel)
 		end
 	else
-		self.instance.CFrame = CFrame.new(self.instance.CFrame.p + deltaDirection * travel, deltaDirection)
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
 	end
+end
+
+function Unit:calculateWaypointPosition()
+	local basePosition = self.path:GetWaypoints()[self.currentWaypoint].Position
+	local ray = Ray.new(basePosition + Vector3.new(0, 20, 0), Vector3.new(0, -30, 0))
+	local _, terrainPosition = Workspace:FindPartOnRayWithWhitelist(ray, { workspace.Terrain })
+	print("Next waypoint at", terrainPosition, "from base position", basePosition)
+	self.currentWaypointPosition = terrainPosition
 end
 
 function Unit:calculatePath()
@@ -1084,17 +1478,123 @@ function Unit:calculatePath()
 			return
 		end
 
-		for _,waypoint in pairs(path:GetWaypoints()) do
-			print(waypoint)
-		end
-
 		self.path = path
-		self.currentWaypoint = 1
+		self.currentWaypoint = 2
 		self.recalculatingPath = false
+		self:calculateWaypointPosition()
 	end)
 end
 
 return Unit]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="ModuleScript" referent="RBXfb18d0f64a7b4691abed2c938196ddde">
+				<Properties>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Unit</string>
+					<string name="ScriptGuid">{2f4eea64-cfcf-4870-8573-4a4b47c945e5}</string>
+					<ProtectedString name="Source"><![CDATA[local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local PathfindingService = game:GetService("PathfindingService")
+
+local Shared = ReplicatedStorage:WaitForChild("Scripts")
+local Component = require(Shared.Component)
+
+local Unit = Component:extend("Unit")
+
+function Unit:init()
+	self.offset = Vector3.new(0, -self.instance.Size.y / 2, 0)
+	self.recalculatingPath = false
+	self.moveSpeed = 5
+end
+
+function Unit:update(dt)
+	if self.path then
+		self:moveAlongPath(dt)
+	end
+end
+
+function Unit:select()
+	self.instance.BrickColor = BrickColor.Yellow()
+end
+
+function Unit:deselect()
+	self.instance.BrickColor = BrickColor.White()
+end
+
+function Unit:pathTo(destination)
+	self.destination = destination
+	self:calculatePath()
+end
+
+function Unit:moveAlongPath(dt)
+	local position = self.instance.CFrame.p + self.offset
+	local waypoints = self.path:GetWaypoints()
+	local delta = self.currentWaypointPosition - position
+	local deltaMagnitude = delta.Magnitude
+	local deltaDirection = delta / deltaMagnitude
+	local travel = self.moveSpeed * dt
+
+	-- If we're closer to the waypoint than the distance we'd travel, we've reached the waypoint.
+	if deltaMagnitude < travel then
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+
+		-- If this is the last waypoint, we're done. Clear the path.
+		-- Otherwise, move to the waypoint, and then move again to use up the rest of our movement to the next one.
+		if self.currentWaypoint == #waypoints then
+			self.path = nil
+		else
+			self.currentWaypoint = self.currentWaypoint + 1
+			self:calculateWaypointPosition()
+			self:moveAlongPath(dt * deltaMagnitude / travel)
+		end
+	else
+		local newPos = self.instance.CFrame.p + deltaDirection * travel
+		self.instance.CFrame = CFrame.new(newPos, newPos + deltaDirection)
+	end
+end
+
+function Unit:calculateWaypointPosition()
+	local basePosition = self.path:GetWaypoints()[self.currentWaypoint].Position
+	local ray = Ray.new(basePosition + Vector3.new(0, 20, 0), Vector3.new(0, -30, 0))
+	local _, terrainPosition = Workspace:FindPartOnRayWithWhitelist(ray, { workspace.Terrain })
+	self.currentWaypointPosition = terrainPosition
+end
+
+function Unit:calculatePath()
+	-- If the path is incomplete or blocked, we need to recalculate periodically. This flag makes sure we don't attempt
+	-- to recalculate again while we're still doing the last one.
+	self.recalculatingPath = true
+	spawn(function()
+		local position = self.instance.CFrame.p + self.offset
+		local destination = self.destination
+		local path = PathfindingService:FindPathAsync(position, destination)
+
+		-- If we were given a new destination before we finished calculating this one, discard this one.
+		if destination ~= self.destination then
+			return
+		end
+
+		-- If there is no path, then we can't reasonably retry. Just fail and do nothing.
+		if path.status == Enum.PathStatus.NoPath then
+			return
+		end
+
+		self.path = path
+		self.currentWaypoint = 2
+		self.recalculatingPath = false
+		self:calculateWaypointPosition()
+	end)
+end
+
+return Unit]]></ProtectedString>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+			</Item>
+			<Item class="Folder" referent="RBXe5961bd252b54249af47bf9d994197d8">
+				<Properties>
+					<string name="Name">Components</string>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
