@@ -21,50 +21,8 @@ function CameraManager.new()
 	local origin = Vector3.new(0, 512, 0)
 	local angle = 0
 	local zoom = minZoom
-	local movingForward = false
-	local movingBackward = false
-	local movingLeft = false
-	local movingRight = false
-	local rotatingLeft = false
-	local rotatingRight = false
-	
+
 	camera.CameraType = Enum.CameraType.Scriptable
-
-	UserInputService.InputBegan:connect(function(input, processed)
-		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.W then
-				movingForward = true
-			elseif input.KeyCode == Enum.KeyCode.S then
-				movingBackward = true
-			elseif input.KeyCode == Enum.KeyCode.A then
-				movingLeft = true
-			elseif input.KeyCode == Enum.KeyCode.D then
-				movingRight = true
-			elseif input.KeyCode == Enum.KeyCode.Q then
-				rotatingLeft = true
-			elseif input.KeyCode == Enum.KeyCode.E then
-				rotatingRight = true
-			end
-		end
-	end)
-
-	UserInputService.InputEnded:connect(function(input, processed)
-		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.W then
-				movingForward = false
-			elseif input.KeyCode == Enum.KeyCode.S then
-				movingBackward = false
-			elseif input.KeyCode == Enum.KeyCode.A then
-				movingLeft = false
-			elseif input.KeyCode == Enum.KeyCode.D then
-				movingRight = false
-			elseif input.KeyCode == Enum.KeyCode.Q then
-				rotatingLeft = false
-			elseif input.KeyCode == Enum.KeyCode.E then
-				rotatingRight = false
-			end
-		end
-	end)
 
 	UserInputService.InputChanged:connect(function(input, processed)
 		if input.UserInputType == Enum.UserInputType.MouseWheel then
@@ -73,10 +31,10 @@ function CameraManager.new()
 	end)
 
 	RunService.Heartbeat:connect(function(timeMult)
-		if rotatingLeft then
+		if UserInputService:IsKeyDown(Enum.KeyCode.Q) then
 			angle = angle - cameraRotateSpeed * timeMult
 		end
-		if rotatingRight then
+		if UserInputService:IsKeyDown(Enum.KeyCode.E) then
 			angle = angle + cameraRotateSpeed * timeMult
 		end
 
@@ -85,16 +43,16 @@ function CameraManager.new()
 		local forward = Vector3.new(math.cos(angle), 0, math.sin(angle))
 		local left = Vector3.new(-forward.z, 0, forward.x)
 
-		if movingForward then
+		if UserInputService:IsKeyDown(Enum.KeyCode.W) then
 			origin = origin + forward * actualCameraSpeed * timeMult
 		end
-		if movingBackward then
+		if UserInputService:IsKeyDown(Enum.KeyCode.S) then
 			origin = origin + forward * -actualCameraSpeed * timeMult
 		end
-		if movingRight then
+		if UserInputService:IsKeyDown(Enum.KeyCode.D) then
 			origin = origin + left * actualCameraSpeed * timeMult
 		end
-		if movingLeft then
+		if UserInputService:IsKeyDown(Enum.KeyCode.A) then
 			origin = origin + left * -actualCameraSpeed * timeMult
 		end
 
