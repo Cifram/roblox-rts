@@ -22,7 +22,9 @@ function InputManager.new()
 	end
 
 	local function clickTerrain(position)
-		print("Terrain clicked", position)
+		if selectedUnit then
+			selectedUnit:pathTo(position)
+		end
 	end
 
 	local function clickUnit(unit)
