@@ -9,6 +9,8 @@ local InputManager = {}
 InputManager.__index = InputManager
 
 function InputManager.new()
+	local formationUnitWidth = 3
+
 	local downPosition = nil
 	local downPart = nil
 
@@ -22,8 +24,27 @@ function InputManager.new()
 	end
 
 	local function clickTerrain(position)
+		local numSelected = #selectedUnits
+		if numSelected == 0 then
+			return
+		end
+
+		local startPos = Vector3.new(0, 0, 0)
 		for _, unit in pairs(selectedUnits) do
-			unit:pathTo(position)
+			startPos = startPos + unit.instance.CFrame.p
+		end
+		startPos = startPos / numSelected
+
+		local delta = position - startPos
+		local formationDirection = delta:Cross(Vector3.new(0, 1, 0)).Unit
+		local formationWidth = (numSelected - 1) * formationUnitWidth
+		local formationStart = position - formationDirection * formationWidth / 2
+
+		for index, unit in pairs(selectedUnits) do
+			local basePos = formationStart + formationDirection * (index - 1) * formationUnitWidth
+			local ray = Ray.new(basePos + Vector3.new(0, 100, 0), Vector3.new(0, -200, 0))
+			local _, terrainPos = Workspace:FindPartOnRayWithWhitelist(ray, { terrain })
+			unit:pathTo(terrainPos)
 		end
 	end
 

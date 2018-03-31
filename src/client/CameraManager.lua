@@ -56,7 +56,8 @@ function CameraManager.new()
 			origin = origin + left * -actualCameraSpeed * timeMult
 		end
 
-		local _, intersection = workspace:FindPartOnRayWithWhitelist(Ray.new(origin, Vector3.new(0, -1024, 0)), { terrain })
+		local ray = Ray.new(origin, Vector3.new(0, -1024, 0))
+		local _, intersection = workspace:FindPartOnRayWithWhitelist(ray, { terrain })
 		camera.CFrame = CFrame.new(intersection - forward*range + Vector3.new(0, range, 0), intersection)
 	end)
 	
