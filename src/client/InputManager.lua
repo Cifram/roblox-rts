@@ -12,7 +12,7 @@ function InputManager.new()
 	local downPosition = nil
 	local downPart = nil
 
-	local selectedUnit = nil
+	local selectedUnits = {}
 	local terrain = workspace.Terrain
 
 	local function getClickables()
@@ -22,21 +22,36 @@ function InputManager.new()
 	end
 
 	local function clickTerrain(position)
-		if selectedUnit then
-			selectedUnit:pathTo(position)
+		for _, unit in pairs(selectedUnits) do
+			unit:pathTo(position)
 		end
 	end
 
 	local function clickUnit(unit)
-		if unit == selectedUnit then
-			selectedUnit = nil
-			unit:deselect()
-		else
-			if selectedUnit then
-				selectedUnit:deselect()
+		for _, curUnit in pairs(selectedUnits) do
+			curUnit:deselect()
+		end
+
+		if UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then
+			local selectedIndex = 0
+			for index, testUnit in pairs(selectedUnits) do
+				if testUnit == unit then
+					selectedIndex = index
+					break
+				end
 			end
-			selectedUnit = unit
-			unit:select()
+
+			if selectedIndex ~= 0 then
+				table.remove(selectedUnits, selectedIndex)
+			else
+				selectedUnits[#selectedUnits+1] = unit
+			end
+		else
+			selectedUnits = { unit }
+		end
+
+		for _, curUnit in pairs(selectedUnits) do
+			curUnit:select()
 		end
 	end
 
